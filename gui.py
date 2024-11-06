@@ -1,6 +1,13 @@
 from modules import functions
 import FreeSimpleGUI as sg
 import time
+import os
+
+# Comprobamos si existe el fichero todos.txt y si no existe se crea.
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
+
 
 sg.theme("Black")
 
