@@ -1,7 +1,4 @@
 /.venv/
 .idea
 bonus
-
-
-
-
+/gui.spec
